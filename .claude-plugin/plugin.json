@@ -9,5 +9,12 @@
   },
   "homepage": "https://github.com/JonasDoebertin/skills",
   "repository": "https://github.com/JonasDoebertin/skills",
-  "keywords": ["skills", "personal", "workflow"]
+  "keywords": [
+    "skills",
+    "writing",
+    "editing",
+    "ai-slop",
+    "personal"
+  ],
+  "license": "MIT"
 }
