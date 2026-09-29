@@ -42,6 +42,12 @@ claude plugin validate .
 └── _template/             # Copy-paste template for new skills (not loaded)
 ```
 
+## Skills
+
+| Skill | Purpose | Origin |
+| --- | --- | --- |
+| [human-writing](skills/human-writing) | Write or edit text so it is only as long as it needs to be and reads as human, with no AI slop | [l4ci/skills](https://github.com/l4ci/skills) + [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) (MIT) |
+
 ## Adding a skill
 
 1. `cp -r _template/skills/example-skill skills/<skill-name>`
