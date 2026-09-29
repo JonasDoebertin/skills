@@ -1,0 +1,20 @@
+{
+  "name": "dieserjonas",
+  "owner": {
+    "name": "Jonas Döbertin",
+    "email": "hello@dieserjonas.dev"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace of Jonas Döbertin",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "dieserjonas",
+      "source": "./",
+      "description": "Personal collection of Claude Code skills by Jonas Döbertin.",
+      "version": "0.1.0",
+      "category": "workflow"
+    }
+  ]
+}

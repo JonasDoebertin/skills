@@ -1,0 +1,13 @@
+{
+  "name": "dieserjonas",
+  "version": "0.1.0",
+  "description": "Personal collection of Claude Code skills by Jonas Döbertin.",
+  "author": {
+    "name": "Jonas Döbertin",
+    "email": "hello@dieserjonas.dev",
+    "url": "https://dieserjonas.dev"
+  },
+  "homepage": "https://github.com/JonasDoebertin/skills",
+  "repository": "https://github.com/JonasDoebertin/skills",
+  "keywords": ["skills", "personal", "workflow"]
+}
