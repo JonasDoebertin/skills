@@ -47,6 +47,6 @@ _template/        starting point for new skills, not loaded
 
 ## Credits and license
 
-`human-writing` combines [concise-writing](https://github.com/l4ci/skills/tree/main/plugins/stray/skills/concise-writing) by Volker Otto and [stop-slop](https://github.com/hardikpandya/stop-slop) by Hardik Pandya, both MIT.
+`human-writing` combines [concise-writing](https://github.com/l4ci/skills/tree/main/plugins/stray/skills/concise-writing) by Volker Otto, [stop-slop](https://github.com/hardikpandya/stop-slop) by Hardik Pandya, and [humanizer](https://github.com/blader/humanizer) by Siqi Chen, all MIT.
 
 Everything else is [MIT](LICENSE) © Jonas Döbertin.

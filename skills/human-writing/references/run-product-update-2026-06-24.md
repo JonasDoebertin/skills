@@ -7,6 +7,7 @@ A worked run of the skill in edit mode (cut pass plus de-slop pass). The input i
 - **Purpose:** tell existing users what changed in this release and what they should do.
 - **Reader:** current customers skimming an email between meetings.
 - **Takeaway:** "Imports are faster and no longer fail on large files; nothing you need to do."
+- **Facts from the user** (not in the draft): large-file imports used to time out partway through; customers need to do nothing, but a failed import can be retried.
 
 ## Original (218 words)
 
@@ -53,6 +54,7 @@ Tells rewritten in what survived:
 - Still longer than it needs to be? The subject can be plainer; one line of intro is enough.
 - Still reads as AI? "valuable time" is brochure filler. Cut.
 - Lost meaning? Need to keep "nothing you need to do", the actual takeaway for the reader, which the original buried.
+- Added anything? Every fact in the final is in the draft or in the user's note above. "Partway through" and the retry hint come from the user, not from a guess.
 
 ## Final (54 words)
 
@@ -71,4 +73,4 @@ Tells rewritten in what survived:
 
 ## Result
 
-218 words to 54, a 75% cut, with more information than the original carried: the one fact the reader needed ("large files no longer fail", "nothing to do") was missing from the bloated version and is now the point. The voice is plain because the genre is a utility email, not an essay; nothing here wanted personality.
+218 words to 54, a 75% cut, with more information than the original carried: the facts the reader needed ("large files no longer fail", "nothing to do") were missing from the bloated version. The user supplied them, and they are now the point. The voice is plain because the genre is a utility email, not an essay; nothing here wanted personality.

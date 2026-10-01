@@ -2,6 +2,19 @@
 
 All notable changes to this plugin are listed here. Versions follow [Semantic Versioning](https://semver.org).
 
+## [0.2.0] - 2026-10-01
+
+### Added
+
+- `human-writing`: tells adopted from humanizer (blader/humanizer): text describing itself, replies that re-explain what the reader knows, heading echoes, arguing with no one, borrowed authority, vague association, knowledge-limit guesses, stock sections and send-offs, stock AI vocabulary, repeated openings, closers that explain the example.
+- `human-writing`: file and embedded output modes.
+
+### Changed
+
+- `human-writing`: a rewrite never adds facts the source lacks; the restore step now checks for additions as well as losses.
+- `human-writing`: tells are graded by strength, with *weak alone* tells acted on only in clusters.
+- `human-writing`: the audit re-checks the tells that most often survive a rewrite.
+
 ## [0.1.0] - 2026-09-29
 
 ### Added
