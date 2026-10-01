@@ -11,7 +11,7 @@ The skill ships with the `dieserjonas` plugin:
 /plugin install dieserjonas@dieserjonas
 ```
 
-Claude loads it when you ask to tighten or de-slop a text. To call it directly, use `/dieserjonas:human-writing`.
+To call it directly, use `/dieserjonas:human-writing`.
 
 ## Example
 
@@ -27,7 +27,7 @@ The skill removed the opener, the "not because X, because Y" reversal, and the e
 
 ## What it does
 
-A single editor runs a loop: anchor to purpose and reader, draft or read, cut pass, de-slop pass, read-aloud and score, restore, final scan. You get the tightened text plus a word count, a score, and a short note on what did the most work. Named files are edited in place with code and paths left untouched; when another task embeds the skill (a commit message, a PR description), only the final text comes back.
+It runs seven steps: anchor to purpose and reader, draft or read, cut pass, de-slop pass, read-aloud and score, restore, final scan. You get the tightened text plus a word count, a score, and a short note on what did the most work. Named files are edited in place with code and paths left untouched; when another task embeds the skill (a commit message, a PR description), only the final text comes back.
 
 ## When to use it
 
@@ -35,7 +35,7 @@ A single editor runs a loop: anchor to purpose and reader, draft or read, cut pa
 
 ## How it differs from humanizer and stop-slop
 
-It combines both with a third skill, concise-writing, and takes a different part from each:
+It merges both with a third skill, concise-writing, and settles conflicts between their rules in favor of meaning. From each it takes a different part:
 
 - **concise-writing** by Volker Otto ([l4ci/skills](https://github.com/l4ci/skills/tree/main/plugins/stray/skills/concise-writing)): the procedure, the cut ladder (delete whole units before trimming words), the question set, and the guardrail against over-trimming. It draws on [ponytail](https://github.com/DietrichGebert/ponytail) ("the best sentence is the one you never wrote"), Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), and Strunk and White, Zinsser, and Williams.
 - **stop-slop** by Hardik Pandya ([hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)): the detailed catalog of slop phrases and structures (false agency, narrator distance, binary contrasts, business jargon, rhythm checks) and the five-dimension score.
@@ -43,7 +43,7 @@ It combines both with a third skill, concise-writing, and takes a different part
 
 ## Will it cut too much?
 
-It is built not to. Where the sources disagree, meaning wins: slop rules (no adverbs, no passive, no hedges) are strong defaults, but a qualifier that keeps a claim true stays, so "Most teams struggle" does not become "Teams struggle". Ask for the strict version if you want the rules applied as bans.
+When a slop rule and meaning conflict, meaning wins. The rules against adverbs, passive, and hedges are strong defaults, and a qualifier that keeps a claim true stays, so "Most teams struggle" does not become "Teams struggle". Ask for the strict version if you want the rules applied as bans.
 
 ## Does it work in other languages?
 

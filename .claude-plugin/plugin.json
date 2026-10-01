@@ -1,7 +1,7 @@
 {
   "name": "dieserjonas",
   "version": "0.2.1",
-  "description": "Claude Code skills by Jonas Döbertin. human-writing cuts text to length and removes AI writing patterns.",
+  "description": "Claude Code skills by Jonas Döbertin. Includes human-writing, which cuts text to length and removes AI writing patterns.",
   "author": {
     "name": "Jonas Döbertin",
     "email": "hello@dieserjonas.dev",

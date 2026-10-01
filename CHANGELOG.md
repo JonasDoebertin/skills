@@ -10,7 +10,8 @@ All notable changes to this plugin are listed here. Versions follow [Semantic Ve
 
 ### Changed
 
-- Plugin and marketplace descriptions and keywords name what the skills do.
+- Plugin and marketplace descriptions, and plugin keywords, now name what the skills do.
+- README: steps for skill READMEs and GitHub metadata when adding a skill.
 - `human-writing`: the README is now the skill's landing page, with install commands, an example, and answers to common questions.
 
 ## [0.2.0] - 2026-10-01

@@ -1,6 +1,6 @@
 # example-skill
 
-One or two sentences on what the skill does, in the words people search for. Search engines and AI assistants quote this part, so name the problem the skill solves, not its method.
+One or two sentences on what the skill does, in the words people search for. This is the part search results and AI assistants show, so name the problem the skill solves, not its method.
 
 ## Install
 
@@ -11,7 +11,7 @@ The skill ships with the `dieserjonas` plugin:
 /plugin install dieserjonas@dieserjonas
 ```
 
-Claude loads it when you ask to <trigger situation>. To call it directly, use `/dieserjonas:example-skill`.
+To call it directly, use `/dieserjonas:example-skill`.
 
 ## Example
 

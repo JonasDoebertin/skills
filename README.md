@@ -34,9 +34,9 @@ To add a skill:
 1. `cp -r _template/skills/example-skill skills/<skill-name>`
 2. In `SKILL.md`, set `name` to the directory name. Write the `description` carefully: it decides when Claude loads the skill.
 3. Put long reference material in `references/` and scripts in `scripts/`, next to `SKILL.md`.
-4. Fill in `README.md`. GitHub shows it as the skill's own page, so its first sentence should name the problem the skill solves in the words people search for.
+4. Fill in `README.md`. GitHub shows it as the skill's own page, so its opening sentences should name the problem the skill solves in the words people search for.
 5. Add a row to the table above and an entry to [CHANGELOG.md](CHANGELOG.md).
-6. Bump `version` in `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`, and add the skill's search terms to `keywords`.
+6. Bump `version` in `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`. In both, update the plugin `description`, and add the skill's search terms to `keywords` in `plugin.json`.
 7. Update the repository description and topics on GitHub.
 
 A skill adopted from someone else keeps its original `LICENSE` in its directory, and its `README.md` names the source repository and commit.
