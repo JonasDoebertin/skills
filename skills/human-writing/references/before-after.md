@@ -30,7 +30,7 @@ Short transformations, one or two tell clusters each. The "Before" samples are d
 **After:**
 > "Our competitors ship faster than we do, so we have to decide before every question is answered."
 
-**Changes:** Replaced the jargon with the concrete claim it was hiding. If the writer cannot name that claim, the sentence had nothing to say and goes entirely.
+**Changes:** Replaced the jargon with the concrete claim it was hiding, which the writer supplied when asked. Do not guess it: if the writer cannot name the claim, the sentence had nothing to say and goes entirely.
 
 ## Dramatic fragmentation
 
@@ -60,4 +60,4 @@ Short transformations, one or two tell clusters each. The "Before" samples are d
 **After:**
 > "Anna's team fixed the bug within a week and decided to roll the fix out to all customers."
 
-**Changes:** Named who acted. Complaints do not become fixes and decisions are not reached; people fix and decide.
+**Changes:** Named who acted. Complaints do not become fixes and decisions are not reached; people fix and decide. The name came from the writer when asked; the draft did not have it. Without that answer, "The bug was fixed within a week and rolled out to all customers" is the honest version.

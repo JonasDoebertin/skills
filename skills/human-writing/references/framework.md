@@ -1,6 +1,6 @@
 # human-writing (framework)
 
-The method for writing or editing text so it is only as long as it needs to be and carries no signs of AI writing. Two ideas hold it together. First, from the laziness ethos of [ponytail](https://github.com/DietrichGebert/ponytail): the best sentence is the one you never wrote, so the default move is to cut, not to polish. Second, from Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing): machine prose has specific, nameable tells, and you remove them by rewriting, not by striking words. The classic concision sources sit underneath both: Strunk and White ("omit needless words"), Zinsser's *On Writing Well*, and Williams's *Style*.
+The method for writing or editing text so it is only as long as it needs to be and carries no signs of AI writing. Two ideas hold it together. First, from the laziness ethos of [ponytail](https://github.com/DietrichGebert/ponytail): the best sentence is the one you never wrote, so the default move is to cut, not to polish. Second, from Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing): machine prose has specific, nameable tells, and you remove them by rewriting, not by striking words. A model writes the choice that fits the widest range of readers; a person writes for one reader, so the fix for every tell is to get specific. The classic concision sources sit underneath both: Strunk and White ("omit needless words"), Zinsser's *On Writing Well*, and Williams's *Style*.
 
 The aim is not the shortest possible text. It is text as long as it needs to be: every cut that costs meaning is a bad cut. Brevity is a means, clarity is the end.
 
@@ -55,7 +55,7 @@ Removing AI patterns is not the same as cutting length. These target verbosity d
 - **Phrase to word.** "a large number of" to "many"; "in the event that" to "if".
 - **Active over passive** when it shortens and names the actor.
 - **Drop the recap.** The sentence that restates the paragraph it ends almost always goes.
-- **Specifics, not quantifiers.** A number beats "several"; a name beats "various stakeholders".
+- **Specifics, not quantifiers.** A number beats "several"; a name beats "various stakeholders". Use the number and the name the source has; if it has none, ask or keep the quantifier.
 - **Stop when the point lands.** Do not write to fill a length. End the moment the reader has it.
 
 ## The length test
@@ -78,5 +78,6 @@ The target is always "as long as it needs to be", judged against the purpose and
 
 - ponytail, for the decision-ladder ethos applied to making: <https://github.com/DietrichGebert/ponytail>
 - stop-slop by Hardik Pandya, for the phrase and structure catalogs: <https://github.com/hardikpandya/stop-slop>
+- humanizer by Siqi Chen, for the document-level patterns, tell strength, and the no-invention rule: <https://github.com/blader/humanizer>
 - Wikipedia, *Signs of AI writing*, maintained by WikiProject AI Cleanup: <https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing>
 - Strunk and White, *The Elements of Style*; William Zinsser, *On Writing Well*; Joseph Williams, *Style: Toward Clarity and Grace*.
