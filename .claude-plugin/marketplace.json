@@ -5,15 +5,15 @@
     "email": "hello@dieserjonas.dev"
   },
   "metadata": {
-    "description": "Personal Claude Code plugin marketplace of Jonas Döbertin",
-    "version": "0.2.0"
+    "description": "Claude Code plugin marketplace by Jonas Döbertin",
+    "version": "0.2.1"
   },
   "plugins": [
     {
       "name": "dieserjonas",
       "source": "./",
-      "description": "Personal collection of Claude Code skills by Jonas Döbertin.",
-      "version": "0.2.0",
+      "description": "Claude Code skills by Jonas Döbertin. human-writing cuts text to length and removes AI writing patterns.",
+      "version": "0.2.1",
       "category": "workflow"
     }
   ]
